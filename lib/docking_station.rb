@@ -1,11 +1,9 @@
 class DockingStation
 
+  attr_reader :docked_bikes
+
   def initialize
     @docked_bikes = []
-  end
-
-  def list_bikes
-    @docked_bikes
   end
 
   def release_bike

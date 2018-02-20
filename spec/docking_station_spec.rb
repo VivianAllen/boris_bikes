@@ -8,7 +8,7 @@ describe DockingStation do
   end
 
   it 'releases a bike that is working.' do
-    bike = DockingStation.new.release_bike
+    bike = Bike.new
     expect(bike).to respond_to(:working?)
   end
 
@@ -19,9 +19,9 @@ describe DockingStation do
 
   it 'docks a bike' do
     docking_station = DockingStation.new
-    bike = docking_station.release_bike
+    bike = Bike.new
     docking_station.dock_bike(bike)
-    expect(docking_station.list_bikes[0]).to equal(bike)
+    expect(docking_station.docked_bikes[0]).to equal(bike)
   end
 
   it 'cannot to release_bike if there are no bikes.' do
