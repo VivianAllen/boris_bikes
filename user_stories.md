@@ -12,6 +12,8 @@ I'd like a docking station to release a bike.
 |  BIKE  | .use |
 |  DOCKING STATION |  .release_bike  |
 
+![My Diagram Image](https://sketchboard.me/fAUmnUK0mLVU#/)
+
 ## USER STORY ##
 
 As a person,
@@ -25,3 +27,5 @@ I'd like to see if a bike is working
 |  PERSON     | |
 |  BIKE  | .see_if_working? |
 |  BIKE  | .use |
+
+![My Diagram Image](https://sketchboard.me/TAUmnQL4Xbkc)
