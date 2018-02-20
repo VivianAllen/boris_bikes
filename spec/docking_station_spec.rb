@@ -24,4 +24,10 @@ describe DockingStation do
     expect(docking_station.list_bikes[0]).to equal(bike)
   end
 
+  it 'cannot to release_bike if there are no bikes.' do
+    docking_station = DockingStation.new
+    expect { docking_station.release_bike}.to raise_error('There are no bikes to release.')
+  end
+
+
 end

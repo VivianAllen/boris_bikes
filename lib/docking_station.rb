@@ -9,7 +9,11 @@ class DockingStation
   end
 
   def release_bike
-    return Bike.new
+    if @docked_bikes.length > 0
+      return Bike.new
+    else
+      raise StandardError.new('There are no bikes to release.')
+    end
   end
 
   def dock_bike(bike)
