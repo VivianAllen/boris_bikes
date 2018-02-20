@@ -12,7 +12,7 @@ I'd like a docking station to release a bike.
 |  BIKE  | .use |
 |  DOCKING STATION |  .release_bike  |
 
-![My Diagram Image](https://sketchboard.me/fAUmnUK0mLVU#/)
+![My Diagram Image](faumnuk0mlvu.png)
 
 ## USER STORY ##
 
@@ -28,4 +28,4 @@ I'd like to see if a bike is working
 |  BIKE  | .see_if_working? |
 |  BIKE  | .use |
 
-![My Diagram Image](https://sketchboard.me/TAUmnQL4Xbkc)
+![My Diagram Image](taumnql4xbkc.png)
